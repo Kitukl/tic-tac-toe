@@ -54,7 +54,7 @@ export function App() {
 			<h1>Tic-Tac-Toe </h1>
 			<Board squares={squares} onClick={handleClick} />
 
-			<p>{status}</p>
+			<p className='status'>{status}</p>
 
 			<button className='reset' onClick={resetGame}>
 				RESET
